@@ -122,7 +122,7 @@ NEKO_STICKERS = (
 PM_START_TEXT = """
 ────「 [{}](https://graph.org/file/8b464c9cb731a0fe73bcb.jpg) 」────
 *Hᴇʏ..! {},*
-*Pɪᴋᴀᴄʜᴜ, Don't Touch Me Without My Permission...!*
+*Pɪᴋᴀᴄʜᴏᴏ ❦, Don't Touch Me Without My Permission...!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ❍ *Uptime:* `{}`
 ❍ `{}` *Users, Across* `{}` *Chats.*
