@@ -120,9 +120,9 @@ NEKO_STICKERS = (
 )
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/9996ec2eafdef4692102d.jpg) 」────
-*Hola! {},*
-*Meow Meow, Don't Touch Me Without My Permission!*
+────「 [{}](https://graph.org/file/8b464c9cb731a0fe73bcb.jpg) 」────
+*Hᴇʏ..! {},*
+*Pɪᴋᴀᴄʜᴜ, Don't Touch Me Without My Permission...!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ❍ *Uptime:* `{}`
 ❍ `{}` *Users, Across* `{}` *Chats.*
@@ -140,7 +140,7 @@ buttons = [
     [
         InlineKeyboardButton(text="📓 Guidelines", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Source 🌐", url="https://github.com/Awesome-Prince/NekoRobot-3.git"
+            text="✪ ʙᴀᴅ ʙᴏʏ ✪", url="https://t.me/badboybiografia"
         ),
     ],
     [
@@ -148,7 +148,7 @@ buttons = [
             text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="📢 Updates", url="https://telegram.dog/Programmer_Updates"
+            text="📢 Updates", url="https://telegram.dog/Team_Remo"
         ),
     ],
 ]
@@ -164,11 +164,11 @@ HELP_STRINGS = """
 """
 
 GROUP_START_IMG = (
-    "https://te.legra.ph/file/5f272dc498e4cf91faf92.jpg",
-    "https://te.legra.ph/file/9d8190aba9ac3421af488.jpg",
-    "https://te.legra.ph/file/5b1ce336f0c0216224040.jpg",
-    "https://te.legra.ph/file/f1f67047d973f3aea4004.jpg",
-    "https://te.legra.ph/file/c2526c05d65fd2fbfa58b.jpg",
+    "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg",
+    "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg",
+    "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg",
+    "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg",
+    "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg",
 )
 
 DONATE_STRING = """❂ I'm Free for Everyone ❂"""
@@ -313,7 +313,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="📢 Updates",
-                            url="https://telegram.dog/Programmer_Updates",
+                            url="https://telegram.dog/Team_Remo",
                         ),
                     ]
                 ]
@@ -677,7 +677,7 @@ def donate(update: Update, context: CallbackContext) -> None:
                         [
                             InlineKeyboardButton(
                                 text="📢 Updates",
-                                url="https://telegram.dog/Programmer_Updates",
+                                url="https://telegram.dog/Team_Remo",
                             ),
                             InlineKeyboardButton(
                                 text="🚑 Support",
