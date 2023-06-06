@@ -73,7 +73,7 @@ async def telegrap(event):
                         [
                             types.KeyboardButtonUrl(
                                 "➡ View Telegraph",
-                                f"https://te.legra.ph{media_urls[0]}",
+                                f"https://graph.org{media_urls[0]}",
                             )
                         ]
                     ],
@@ -109,7 +109,7 @@ async def telegrap(event):
                     [
                         types.KeyboardButtonUrl(
                             "➡ View Telegraph",
-                            f"https://telegra.ph{media_urls[0]}",
+                            f"https://graph.org{media_urls[0]}",
                         )
                     ]
                 ],
