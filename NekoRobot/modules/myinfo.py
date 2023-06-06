@@ -28,7 +28,7 @@ async def proboyx(event):
     on = await bot.send_file(
         event.chat_id,
         file=file2,
-        caption=f"♡ Hey {betsy}, I'm Neko\n♡ I'm Created By [Prince](tg://user?id=1732814103)\n♡ Click The Button Below To Get Your Info",
+        caption=f"♡ 𝙷𝚎𝚢 𝙳𝚞𝚍𝚎 {betsy}, I'ᴍ Pɪᴋᴀᴄʜᴏᴏ\n♡ I'ᴍ Cʀᴇᴀᴛᴇᴅ ʙʏ [ʙᴀᴅ ʙᴏʏ](http://t.me/badboybiographfia)\n♡ Click The Button Below To Get Your Info",
         buttons=button,
     )
 
@@ -65,13 +65,13 @@ async def callback_query_handler(event):
     try:
         boy = event.sender_id
         PRO = await bot.get_entity(boy)
-        NEKO = "YOUR DETAILS BY NEKO \n\n"
-        NEKO += f"FIRST NAME : {PRO.first_name} \n"
-        NEKO += f"LAST NAME : {PRO.last_name}\n"
-        NEKO += f"YOU BOT : {PRO.bot} \n"
+        NEKO = "ʏᴏᴜʀ ᴅᴇᴛᴀɪʟs ʙʏ ᴘɪᴋᴀᴄʜᴏᴏ \n\n"
+        NEKO += f"ғɪʀsᴛ ɴᴀᴍᴇ : {PRO.first_name} \n"
+        NEKO += f"ʟᴀsᴛ ɴᴀᴍᴇ : {PRO.last_name}\n"
+        NEKO += f"ʏᴏᴜ ʙᴏᴛ : {PRO.bot} \n"
         NEKO += f"RESTRICTED : {PRO.restricted} \n"
-        NEKO += f"USER ID : {boy}\n"
-        NEKO += f"USERNAME : {PRO.username}\n"
+        NEKO += f"ᴜsᴇʀ ɪᴅ : {boy}\n"
+        NEKO += f"ᴜsᴇʀɴᴀᴍᴇ : {PRO.username}\n"
         await event.answer(NEKO, alert=True)
     except Exception as e:
         await event.reply(f"{e}")
