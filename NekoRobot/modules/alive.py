@@ -37,13 +37,13 @@ from NekoRobot import tbot as neko
 from NekoRobot.events import register
 
 edit_time = 5
-""" =======================Neko====================== """
+""" ====================ᴘɪᴋᴀᴄʜᴏᴏ=================== """
 file1 = "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg"
 file2 = "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg"
 file3 = "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg"
 file4 = "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg"
 file5 = "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg"
-""" =======================Neko====================== """
+""" ====================ᴘɪᴋᴀᴄʜᴏᴏ=================== """
 
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
