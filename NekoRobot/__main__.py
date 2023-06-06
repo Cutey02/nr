@@ -112,11 +112,11 @@ HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgUAAxkBAAIIW2NL5v9F9hUom4xmsgNYb63SEfZZAAIZBgACYAF5VIerYoMcSln8KgQ",
-    "CAACAgUAAxkBAAIIT2NL5tVmdAO3n1o3cp9Jic9LkqJvAAK7AgACoU3RVLpdwYfQPmS9KgQ",
-    "CAACAgUAAxkBAAIIUGNL5tVNd0rwdoMv-uDVcZ3hHgwlAAIwAwACP9jQVMv2AfU-DvBfKgQ",
-    "CAACAgUAAxkBAAIIUmNL5tUzCtvS5E-XR8h3tFMSqVu7AAIGAwACNZnYVOTUhlBiHTQGKgQ",
-    "CAACAgUAAxkBAAIIUWNL5tVBEQAB2gWLSq0ymEPeAj5kmQAC3QEAAuu92VSPj3UkCiNvfioE",
+    "CAACAgQAAx0CXmipowACBOJkfx1T5_PD6oOxBk0c585QuOrwsgACPBkAAtqjlSwrrglftglNzi8E",
+    "CAACAgQAAx0CXmipowACBOJkfx1T5_PD6oOxBk0c585QuOrwsgACPBkAAtqjlSwrrglftglNzi8E",
+    "CAACAgQAAx0CXmipowACBOJkfx1T5_PD6oOxBk0c585QuOrwsgACPBkAAtqjlSwrrglftglNzi8E",
+    "CAACAgQAAx0CXmipowACBOJkfx1T5_PD6oOxBk0c585QuOrwsgACPBkAAtqjlSwrrglftglNzi8E",
+    "CAACAgQAAx0CXmipowACBOJkfx1T5_PD6oOxBk0c585QuOrwsgACPBkAAtqjlSwrrglftglNzi8E",
 )
 
 PM_START_TEXT = """
@@ -148,7 +148,7 @@ buttons = [
             text="🚑 Support", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="📢 Updates", url="https://telegram.dog/Team_Remo"
+            text="📢 Updates", url="https://telegram.dog/pikachoolog"
         ),
     ],
 ]
@@ -313,7 +313,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="📢 Updates",
-                            url="https://telegram.dog/Team_Remo",
+                            url="https://telegram.dog/pikachoolog",
                         ),
                     ]
                 ]
@@ -677,7 +677,7 @@ def donate(update: Update, context: CallbackContext) -> None:
                         [
                             InlineKeyboardButton(
                                 text="📢 Updates",
-                                url="https://telegram.dog/Team_Remo",
+                                url="https://telegram.dog/pikachoolog",
                             ),
                             InlineKeyboardButton(
                                 text="🚑 Support",
