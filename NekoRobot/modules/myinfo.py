@@ -10,13 +10,13 @@ from NekoRobot import tbot as tgbot
 from NekoRobot.events import register
 
 edit_time = 5
-""" =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/36440524ecd0a6b65138f.jpg"
-file2 = "https://telegra.ph/file/b0868af85d1d17554a6d4.jpg"
-file3 = "https://telegra.ph/file/60c612b4736560f9b98b9.jpg"
-file4 = "https://telegra.ph/file/a502e6322a201f5949058.jpg"
-file5 = "https://telegra.ph/file/737a7b4d519887c35ed21.jpg"
-""" =======================CONSTANTS====================== """
+""" =======================ᴘɪᴋᴀᴄʜᴏᴏ====================== """
+file1 = "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg"
+file2 = "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg"
+file3 = "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg"
+file4 = "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg"
+file5 = "https://graph.org/file/8b464c9cb731a0fe73bcb.jpg"
+""" =======================ᴘɪᴋᴀᴄʜᴏᴏ====================== """
 
 
 @register(pattern="/myinfo")
