@@ -91,7 +91,7 @@ async def all(event):
         usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
         if usrnum == 1:
             if mode == "text_on_cmd":
-                txt = f"{usrtxt}\n\n{msg}\n\nFᴏʀɢᴇᴛ ᴛᴏ Jᴏɪɴ ɪɴ🙈 @Remo_editz ✨🥀"
+                txt = f"{usrtxt}\n\n{msg}\n\nᴅᴏɴᴛ Fᴏʀɢᴇᴛ ᴛᴏ Jᴏɪɴ ɪɴ🙈 @Remo_editz ✨🥀"
                 await tbot.send_message(chat_id, txt)
             elif mode == "text_on_reply":
                 await msg.reply(usrtxt)
