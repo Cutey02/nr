@@ -1,3 +1,14 @@
+import asyncio
+import datetime
+import re
+from datetime import datetime
+
+from telethon import custom, events
+
+from NekoRobot import tbot as bot
+from NekoRobot import tbot as tgbot
+from NekoRobot.events import register
+
 @register(pattern="^/truth ?(.*)")
 
 def truth(update: Update, context: CallbackContext):
