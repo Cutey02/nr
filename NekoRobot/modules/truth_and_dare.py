@@ -32,5 +32,5 @@ DARE_HANDLER = DisableAbleCommandHandler("dare", dare, run_async=True)
 NEKO_PTB.add_handler(TRUTH_HANDLER)
 NEKO_PTB.add_handler(DARE_HANDLER)
 
-__mod_name__ = "Truth R Dare"
+__mod_name__ = "Truth Dare"
 __command_list__ = ["Truth" "Dare"]
