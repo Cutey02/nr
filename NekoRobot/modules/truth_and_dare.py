@@ -25,11 +25,12 @@ __help__ = """
 /truth  ʀᴀɴᴅᴏᴍ ϙᴜᴇsᴛɪᴏɴs ᴏғ ᴛᴇᴀᴍ ʀᴇᴍᴏ
 /dare ʀᴀɴᴅᴏᴍ ᴅᴀʀᴇ ᴏғ ᴛᴇᴀᴍ ʀᴇᴍᴏ
 """
-__mod_name__ = "Truth R Dare"
-__command_list__ = ["Truth" "Dare"]
 
 TRUTH_HANDLER = DisableAbleCommandHandler("truth", truth, run_async=True)
 DARE_HANDLER = DisableAbleCommandHandler("dare", dare, run_async=True)
 
-dispatcher.add_handler(TRUTH_HANDLER)
-dispatcher.add_handler(DARE_HANDLER)
+NEKO_PTB.add_handler(TRUTH_HANDLER)
+NEKO_PTB.add_handler(DARE_HANDLER)
+
+__mod_name__ = "Truth R Dare"
+__command_list__ = ["Truth" "Dare"]
