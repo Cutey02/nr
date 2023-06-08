@@ -21,6 +21,14 @@ def dare(update: Update, context: CallbackContext):
     args = context.args
     update.effective_message.reply_text(random.choice(truth_and_dare_string.DARE))
 
+__help__ = """
+/truth  ʀᴀɴᴅᴏᴍ ϙᴜᴇsᴛɪᴏɴs ᴏғ ᴛᴇᴀᴍ ʀᴇᴍᴏ
+/dare ʀᴀɴᴅᴏᴍ ᴅᴀʀᴇ ᴏғ ᴛᴇᴀᴍ ʀᴇᴍᴏ
+"""
+__mod_name__ = "Truth R Dare"
+__command_list__ = [
+  "Truth"
+  "Dare"
 
 TRUTH_HANDLER = DisableAbleCommandHandler("truth", truth, run_async=True)
 DARE_HANDLER = DisableAbleCommandHandler("dare", dare, run_async=True)
