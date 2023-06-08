@@ -29,7 +29,7 @@ async def _(td):
         results = f"{resp['truth']}"
         return await td.reply(results)
     except Exception:
-        await td.reply(f"Gbanned Done...! @{SUPPORT_CHAT}")
+        await td.reply(f"Gbanned Done...! @pikachoolog")
 
 
 @register(pattern="^/fbun ?(.*)")
@@ -39,7 +39,7 @@ async def _(dr):
         results = f"{resp['dare']}"
         return await dr.reply(results)
     except Exception:
-        await dr.reply(f"Fbanned done ...! @{SUPPORT_CHAT}")
+        await dr.reply(f"Fbanned done ...! @pikachoolog")
 
 
 @register(pattern="^/fact ?(.*)")
