@@ -26,9 +26,7 @@ __help__ = """
 /dare ʀᴀɴᴅᴏᴍ ᴅᴀʀᴇ ᴏғ ᴛᴇᴀᴍ ʀᴇᴍᴏ
 """
 __mod_name__ = "Truth R Dare"
-__command_list__ = [
-  "Truth"
-  "Dare"
+__command_list__ = ["Truth" "Dare"]
 
 TRUTH_HANDLER = DisableAbleCommandHandler("truth", truth, run_async=True)
 DARE_HANDLER = DisableAbleCommandHandler("dare", dare, run_async=True)
