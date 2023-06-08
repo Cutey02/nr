@@ -112,11 +112,11 @@ HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgQAAx0CXmipowACBOJkfx1T5_PD6oOxBk0c585QuOrwsgACPBkAAtqjlSwrrglftglNzi8E",
-    "CAACAgQAAx0CXmipowACBOJkfx1T5_PD6oOxBk0c585QuOrwsgACPBkAAtqjlSwrrglftglNzi8E",
-    "CAACAgQAAx0CXmipowACBOJkfx1T5_PD6oOxBk0c585QuOrwsgACPBkAAtqjlSwrrglftglNzi8E",
-    "CAACAgQAAx0CXmipowACBOJkfx1T5_PD6oOxBk0c585QuOrwsgACPBkAAtqjlSwrrglftglNzi8E",
-    "CAACAgQAAx0CXmipowACBOJkfx1T5_PD6oOxBk0c585QuOrwsgACPBkAAtqjlSwrrglftglNzi8E",
+    "CAACAgEAAx0CXmipowACBY9kgeWLr_pu284F4NfPyj60txCxgAACBwMAAlOZEERe2T13fnAeBS8E",
+    "CAACAgEAAx0CXmipowACBY9kgeWLr_pu284F4NfPyj60txCxgAACBwMAAlOZEERe2T13fnAeBS8E",
+    "CAACAgEAAx0CXmipowACBY9kgeWLr_pu284F4NfPyj60txCxgAACBwMAAlOZEERe2T13fnAeBS8E",
+    "CAACAgEAAx0CXmipowACBY9kgeWLr_pu284F4NfPyj60txCxgAACBwMAAlOZEERe2T13fnAeBS8E",
+    "CAACAgEAAx0CXmipowACBY9kgeWLr_pu284F4NfPyj60txCxgAACBwMAAlOZEERe2T13fnAeBS8E",
 )
 
 PM_START_TEXT = """
