@@ -133,12 +133,12 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text=f"Add {BOT_NAME} To Your Group",
+            text=f"ᴀᴅᴅ {BOT_NAME} ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
             url=f"https://telegram.dog/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="📓 Guidelines", callback_data="help_back"),
+        InlineKeyboardButton(text="🧑‍💻 Guidelines", callback_data="help_back"),
         InlineKeyboardButton(
             text="✪ ʙᴀᴅ ʙᴏʏ ✪", url="https://t.me/badboybiografia"
         ),
